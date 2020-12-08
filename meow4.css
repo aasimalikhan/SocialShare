@@ -1,0 +1,444 @@
+* {
+	font-family: '', cursive;
+    font-size :15pt;
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    margin: auto;
+	
+	width: 100%;
+    
+}
+
+#navbar ul li{
+    
+    
+    list-style: none;
+	font-size: 10px;
+	margin: 10px;
+} 
+
+.error{
+    font-family: 'Sansita Swashed', cursive;
+    color: rgba(255, 0, 0, 0.493);
+    font-size: 16px;
+    margin: 20px;
+    padding: 5px 8px;
+    border-radius: 12px;
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#navbar ul li a{
+   
+
+    display: flex;
+	padding: 3px 5px;
+	color: rgb(255, 124, 1);
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}
+#navbar ul li a:hover{
+   
+
+    display: block;
+	padding: 3px 5px;
+	color: rgb(248, 151, 60);
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}
+li a, .button {
+	text-decoration:none;
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 17px;
+    padding        :4px 6px;
+
+}
+.button2 {
+
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 12px;
+
+}
+.display_profile{
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 40%;
+    border: 2px solid rgba(250, 27, 46, 0.294);
+    border-radius: 20px;
+}
+.prey{
+	font-family: 'Pacifico', cursive;
+	font-size: 23px;
+	background: -webkit-linear-gradient(rgb(253, 194, 1), rgb(255, 12, 4));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+
+}
+.preybruh{
+	font-family: 'Pacifico', cursive;
+	font-size: 23px;
+	background: -webkit-linear-gradient(rgb(253, 194, 1), rgb(255, 12, 4));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+
+}
+.lines{
+    padding: 12px;
+}
+.meowpilli{
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.096);
+    padding: 3px 5px;
+    border-radius: 12px;
+}
+
+.prey a{
+	font-family: 'Pacifico', cursive;
+}
+.preya a{
+	font-family: 'Pacifico', cursive;
+	font-size: 16px;
+	background: -webkit-linear-gradient(rgb(253, 194, 1), rgb(255, 12, 4));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.preymo{
+    background    :linear-gradient(rgb(255, 10, 132), rgb(1, 27, 112));
+    text-align    :center;
+	
+	font-family: 'Pacifico', cursive;
+	border-radius: 12px;
+    font-size     :13pt;
+    margin-left: 20px;
+    padding: 3px;
+	
+}
+.bruhh{
+    margin: 10px;
+    border-radius: 17px;
+    background    : rgba(104, 230, 252, 0.568);
+    border: 2px solid rgb(90, 223, 247);
+    padding: 4px;
+}
+.preym{
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.preyo{
+	font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+.check{
+	font-family: 'Pacifico', cursive;
+}
+
+.button3::-webkit-file-upload-button {
+	visibility: hidden;
+  }
+
+.button1::before{
+	content: 'Choose';
+	
+}
+.button3::before{
+    content: 'Choose';
+}
+.button1{
+	font-family: 'Pacifico', cursive;
+	
+	padding        :4px 6px;
+	
+	background     :linear-gradient(rgb(255, 166, 0), yellow);
+	color          :rgb(110, 27, 2);
+	margin-right   :8px;
+	border-radius  :15px;
+	-moz-box-shadow :2px 2px 2px rgb(155, 114, 0);
+	-webkit-box-shadow :2px 2px 2px rgb(155, 114, 0);
+	box-shadow     :2px 2px 2px rgb(155, 114, 0);
+}
+.button2{
+	font-family: 'Pacifico', cursive;
+	
+	padding        :4px 6px;
+	
+	background     :linear-gradient(rgb(255, 166, 0), yellow);
+	color          :rgb(110, 27, 2);
+	margin-right   :8px;
+	border-radius  :15px;
+	-moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+}
+input{
+	font-family: 'Pacifico', cursive;
+}
+
+li a:hover, .button:hover {
+	color:rgb(255, 81, 0);
+}
+.button4{
+    color: rgb(1, 149, 247);
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 4px 5px;
+    font-family: 'Sansita Swashed', cursive;
+    background-color: rgb(78, 203, 245);
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.431);
+    border: 2px solid rgb(0, 182, 185);
+	border-radius: 20px;
+	font-family: 'Sansita Swashed', cursive;
+	padding: 10px;
+    margin: 15px;
+    
+    
+}
+#navbar ul{
+    
+    display: flex;
+   
+    font-family: 'Pacifico', cursive;
+}
+#navbar ul.menu{
+	width: 100%;
+	
+}
+
+body {
+	width    :700px;
+	margin   :20px auto;
+	background  :linear-gradient(rgb(77, 0, 32),rgb(110, 0, 133), rgb(5, 191, 197));;
+	border   :10px solid #17001a;
+	border-radius   :28px;
+	padding :20px;
+} 
+h3{
+	font-family: 'Nerko One', cursive;
+}
+
+html {
+	background:#000000;
+}
+img {
+	
+    border-radius :20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+	-moz-box-shadow :5px 5px 10px rgba(0, 0, 0, 0.623);
+	-webkit-box-shadow :5px 5px 10px rgba(0, 0, 0, 0.637);
+	box-shadow    :5px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+.liststyleb{
+    list-style: none;
+}
+.liststyleb:before{
+    content: "\2022";
+  color: rgb(255, 157, 0);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.appname {
+	text-align    :center;
+	background    :linear-gradient(rgb(255, 0, 128), rgb(99, 3, 179));
+	
+	font-family: 'Pacifico', cursive;
+	border-radius: 25px;
+	font-size     :20pt;
+	padding       :4px;
+}
+.appname1{
+	font-family: 'Pacifico', cursive;
+	border-radius :25px;
+	font-size     :20pt;
+	padding       :4px;
+	background: -webkit-linear-gradient(rgb(253, 194, 1), rgb(255, 12, 4));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fieldname {
+	float:left;
+	width:120px;
+}
+.main {
+	margin-left:40px;
+}
+.info {
+	font-family: 'Pacifico', cursive;
+	background    :linear-gradient(rgb(255, 0, 128), rgb(99, 3, 179));
+	color      :rgb(255, 196, 0);
+    -moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+    border-radius: 18px;
+    padding    :10px 15px;
+    opacity: 0.5;
+	margin-left:40px;
+}
+.info{
+    color      :rgb(255, 196, 0); 
+}
+.textbasic{
+    font-family: 'Sansita Swashed', cursive;
+	color: rgb(102, 219, 255);
+    font-size: 15px;
+    margin-left: 20px;
+}
+.menu li, .button {
+	font-family: 'Sansita Swashed', cursive;
+	display        :inline;
+	padding        :4px 6px;
+
+	background     :linear-gradient(rgb(255, 67, 161), rgb(190, 3, 3));
+	color          :rgb(250, 165, 8);
+	margin-right   :8px;
+    border-radius  :15px;
+    border: none;
+	-moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+	
+}.button3{
+    text-decoration: none;
+    font-family: 'Sansita Swashed', cursive;
+	display        :inline;
+	padding        :8px 12px;
+    font-size: 15px;
+	background     :linear-gradient(rgb(255, 67, 161), rgb(190, 3, 3));
+	color          :rgb(250, 165, 8);
+	margin-right   :8px;
+    border-radius  :15px;
+    border: none;
+	-moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+}
+.button3:hover{
+    
+    font-family: 'Sansita Swashed', cursive;
+	display        :inline;
+	padding        :8px 12px;
+	
+	background     :linear-gradient(rgb(247, 0, 205), rgb(255, 145, 0));
+	color          :rgb(255, 186, 96);
+	margin-right   :8px;
+	border-radius  :15px;
+	-moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+}
+
+
+.menu li:hover, .button:hover {
+	font-family: 'Sansita Swashed', cursive;
+	display        :inline;
+	padding        :4px 6px;
+	
+	background     :linear-gradient(rgb(247, 0, 205), rgb(255, 145, 0));
+	color          :rgb(255, 186, 96);
+	margin-right   :8px;
+	border-radius  :15px;
+	-moz-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.562);
+	-webkit-box-shadow :2px 2px 2px rgba(0, 0, 0, 0.548);
+	box-shadow     :5px 5px 10px rgba(0, 0, 0, 0.562);
+	
+}
+
+.designmsg{
+    background:linear-gradient(rgb(82, 2, 114), rgb(194, 4, 146));
+    padding: 30px;
+    border-radius: 15px;;
+}
+.subhead {
+	font-weight:bold;
+}
+.taken, .error {
+	color:red;
+}
+.available {
+	color:green;
+}
+.whisper {
+	font-style:italic;
+	color     :#006600;
+}
+#logo {
+	font-family: 'Pacifico', cursive;
+	font-weight   :bold;
+	font-style    :italic;
+	font-size     :97px;
+}
+.pleothra{
+		font-family: 'Pacifico', cursive;
+		font-size: 1.8rem;
+		padding: 12px;
+		background: -webkit-linear-gradient(rgb(253, 194, 1), rgb(255, 12, 4));
+		-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+	
+}
+.puns{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.068);
+    margin: auto;
+    width: 43%;
+
+
+}
+.preym{
+		font-family: 'Pacifico', cursive;
+		font-size: 1rem;
+		padding: 12px;
+		background: -webkit-linear-gradient(rgb(253, 7, 7), rgb(219, 253, 27));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+.preyo{
+    font-family: 'Pacifico', cursive;
+		font-size: 1rem;
+		padding: 12px;
+		background: -webkit-linear-gradient(rgb(253, 228, 7), rgb(7, 252, 138));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+.simpletext{
+	font-family: 'Pacifico', cursive;
+	font-size: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+	
+
+
+
+
+
+
+
