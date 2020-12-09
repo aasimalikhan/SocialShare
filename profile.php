@@ -34,7 +34,7 @@
 	
 	if(isset($_FILES['image']['name']))
 	{
-		$saveto ="user.jpg";
+		$saveto ="$user.jpg";
 		move_uploaded_file($_FILES['image']['tmp_name'], $saveto);
 		$typeok = TRUE;
 		

@@ -38,8 +38,8 @@
 	}
 	function showProfile($user)
 	{
-		if(file_exists("user.jpg"))
-			echo "<div class='display_profile'><img src='user.jpg' style='float:left;'><br><br><br>";
+		if(file_exists("$user.jpg"))
+			echo "<img src='$user.jpg' style='float:left;'><br><br><br>";
 		else
 		{
 			echo "No file";

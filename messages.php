@@ -61,11 +61,11 @@ _END;
 				echo "<span class='preym'>";
 				echo date('M jS \'y g:ia', $row['time']);
 				echo "</span>";
-				echo " <span class='preymo'><span class='preya'>"."<a href='messages.php?view" .$row['auth'] . "'>" .
+				echo " <span class='textbasic'><span class='preya'>"."<a href='messages.php?view" .$row['auth'] . "'>" .
 					$row['auth']. "</a></span></span> ";
 					
 				if($row['pm'] == 0)
-					echo "<span class='preyo'>wrote:</span>" . "<span class='preym'>". "&quot".$row['message'] . "&quot; </span>";
+					echo "<span class='textbasic'>wrote:</span>" . "<span class='preym'>". "&quot".$row['message'] . "&quot; </span>";
 				else if($row['pm'] == 1)
 					echo "<span class='preyo'>whispered:</span> <span class='whisper'>" ."<span class='preym'>"."&quot;".
 						$row['message'] . "&quot;</span> ";
